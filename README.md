@@ -14,3 +14,6 @@ Experimentally, we worked as follows: we chose hyperspectral images with various
 The study highlighted the suitability of our proposed method, specifically when the clustering algorithm k-means is used, as a denoising technique of hyperspectral images. Particularly, the yielded results were nearly as good as the results provided by our best benchmark technique, the AIRLS algorithm, both in SNR gain and execution time.
 
 
+![alt text](https://github.com/konkall/k-means_denoising/blob/main/images/snr_in_out.png?raw=true)
+
+
