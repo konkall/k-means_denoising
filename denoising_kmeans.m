@@ -4,15 +4,15 @@
 % 			to reconstruct the denoised hyperspectral image
 function [Xnew]=denoising_kmeans(X, clusters)
 
-	% n: The number of 'pixels' of the Hyperspectral image
-	% p: The number of features/bands
+    % n: The number of 'pixels' of the Hyperspectral image
+    % p: The number of features/bands
     [n, p]=size(X);
 
     theta = zeros(clusters, p);
     theta_old = zeros(clusters, p);
 
-	% Initializing 'theta' representatives by choosing random vectors from X
-	% and adding some random noise.
+    % Initializing 'theta' representatives by choosing random vectors from X
+    % and adding some random noise.
     for i=1:1:clusters
         
         theta(i,:) = X(randi([1 n]),:) + 0.01*randn(1,p);
