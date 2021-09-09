@@ -1,4 +1,4 @@
-# k-means Hyperspectral image Denoising
+# k-means Hyperspectral Image Denoising
 
 This slightly modified k-means algorithm was written in Matlab as part of my thesis:
 ["Denoising Hyperspectral Images by using Clustering Techniques with Point Representatives"](https://pergamos.lib.uoa.gr/uoa/dl/object/2925879). 
@@ -12,5 +12,10 @@ To deal with the above, the approach followed in the frame of this thesis, is ba
 Experimentally, we worked as follows: we chose hyperspectral images with various characteristics and added white Gaussian noise to them. Then, we applied the clustering algorithms and, by using the resulting point representatives, we attempted to reconstruct the original hyperspectral images. Finally, we compared the results of our method with two other denoising algorithms that were used as a benchmark.
 
 The study highlighted the suitability of our proposed method, specifically when the clustering algorithm k-means is used, as a denoising technique of hyperspectral images. Particularly, the yielded results were nearly as good as the results provided by our best benchmark technique, the AIRLS algorithm, both in SNR gain and execution time.
+
+<p align="center">
+  <img src="https://github.com/konkall/k-means_denoising/blob/main/images/snr_in_out.png" width="500" height="400">
+</p>
+
 
 
