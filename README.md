@@ -1,4 +1,4 @@
-# k-means Hyperspectral image Denoising
+# k-means Hyperspectral Image Denoising
 
 This slightly modified k-means algorithm was written in Matlab as part of my thesis:
 ["Denoising Hyperspectral Images by using Clustering Techniques with Point Representatives"](https://pergamos.lib.uoa.gr/uoa/dl/object/2925879). 
